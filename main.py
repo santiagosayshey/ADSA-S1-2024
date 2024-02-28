@@ -65,7 +65,6 @@ def decimal_to_base(num, base):
     return result
 
 def main():
-    print('Enter three integers: "I1 I2 B" where I1 and I2 are integers (up to 100 digits) and B is the base of the two integers (from 2 to 10)')
     i1_str, i2_str, b_str = input().split()
 
     b = int(b_str)
